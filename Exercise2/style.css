@@ -121,20 +121,34 @@ img
 }
 
 
-
-
-
-
-
-
-#circle {
-	width: 100px;
-	height: 100px;
+a#back-to-top {
+	width: 200px;
+	height: 200px;
 	background: red;
+	border: 2px inset red;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
-	border-radius: 50px;
+	border-radius: 100px;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
 }
+
+a#back-to-top:hover {
+	border: 2px inset blue;
+	background: blue;
+	color: yellow;
+}
+
+a#back-to-top span {
+	display: block;
+	padding-top: 88px;
+}
+
+
+#back-to-top {text-decoration: none;
+font-size: 20px;
+color: white}
 
 /*- - - dropdown - - - */
 
