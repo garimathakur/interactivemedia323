@@ -1,0 +1,178 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+
+/* Canvas 1 */
+
+.canvas.one {
+	background: #DA961B;
+}
+
+.object {
+	position: absolute;
+}
+
+
+/* Sphere */
+
+.sphere {
+	background: white;
+	height: 302px;
+	width: 302px;
+	border-radius: 50%;
+	bottom: 200px;
+	left: 200px;
+}
+
+/* Squash */
+
+.squash {
+	background: #FF6B00;
+	height: 122px;
+	width: 122px;
+	border-radius: 40%;
+	bottom: 150px;
+	left: 400px;
+}
+
+/* Water glass */
+
+.water-glass-container {
+	height: 225px;
+	width: 100px;
+	/*background: lime;*/
+	right: 200px;
+	bottom: 200px;
+}
+
+.water-glass-container .glass {
+	/*border-top: 225px solid white;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	height: 0;
+	width: 100px;
+	opacity: 0.5;*/
+	height: 225px;
+	width: 100px;
+	background: white;
+	opacity: 0.5;
+}
+
+.water-glass-container .top {
+	width: 100px;
+	height: 25px;
+	border-radius: 50%;
+	background: white;
+	background: #DA961B;
+	border: 1px solid white;
+	top: -12px;
+}
+
+.water-glass-container .bottom {
+	width: 100px;
+	height: 25px;
+	border-radius: 50%;
+	background: white;
+	bottom: -12px;
+}
+
+.water-glass-container .water-level {
+	width: 100px;
+	height: 25px;
+	border-radius: 50%;
+	background: white;
+	bottom: 66.666%;
+}
+
+
+/* Canvas 2 */
+
+.canvas.two {
+	background: #DED223;
+}
+
+.canvas.two .squash {
+	left: auto;
+	right: 50px;
+}
+
+/* Vase */
+
+.vase-container {
+	/*background: indigo;*/
+    width: 100px;
+    height: 325px;
+    bottom: 200px;
+    right: 270px;
+}
+
+.vase {
+	width: 100px;
+	height: 250px;
+	background: white;
+	opacity: 0.5;
+	bottom: 0;
+}
+
+.vase-bottom {
+	width: 100px;
+	height: 25px;
+	border-radius: 50%;
+	bottom: -12px;
+	background: white;
+}
+
+.vase-top {
+	width: 100px;
+	height: 25px;
+	border-radius: 50%;
+	top: -12px;
+	background: white;
+}
+
+.flower.one {
+	left: 20px;
+}
+
+.flower.two {
+	left: 40px;
+}
+
+.flower.three {
+	left: 60px;
+}
+
+.flower.four {
+	left: 80px;
+}
+
+.flower.five {
+	left: 100px;
+}
+
+.stem {
+	background: green;
+	width: 10px;
+	height: 275px;
+}
+
+.petal {
+	background: indigo;
+	width: 50px;
+	height: 20px;
+	border-radius: 50%;
+	top: -10px;
+}
